@@ -28,7 +28,7 @@
 <meta property="og:site_name" content="金猪博客">
 <meta property="og:locale">
 <meta property="article:published_time" content="2014-12-22T04:39:04.000Z">
-<meta property="article:modified_time" content="2020-08-12T12:55:46.837Z">
+<meta property="article:modified_time" content="2020-08-12T13:25:35.143Z">
 <meta property="article:author" content="陈锡">
 <meta name="twitter:card" content="summary">
 
@@ -365,6 +365,17 @@
   
 
   
+<script>
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({
+      el  : '#valine-comments',
+      path: location.pathname,
+    }, {"enable":true,"appId":"vyIdyfaz5wrI0IHBLkpb1zNb-gzGzoHsz","appKey":"SdBz987vpdt5S1MDKDnrVbRB","placeholder":"请在此输入您的留言","avatar":"mm","meta":[],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":false,"serverURLs":null,"enableQQ":false,"requiredFields":[]}
+    ));
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>
