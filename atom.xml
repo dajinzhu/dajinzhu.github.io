@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-12T14:14:12.384Z</updated>
+  <updated>2020-08-13T13:59:55.044Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,34 +18,23 @@
   
   <entry>
     <title>金猪博客2.0开启</title>
-    <link href="http://yoursite.com/2020/08/12/%E9%87%91%E7%8C%AA%E5%8D%9A%E5%AE%A22-0%E5%BC%80%E5%90%AF/"/>
-    <id>http://yoursite.com/2020/08/12/%E9%87%91%E7%8C%AA%E5%8D%9A%E5%AE%A22-0%E5%BC%80%E5%90%AF/</id>
-    <published>2020-08-12T14:14:12.000Z</published>
-    <updated>2020-08-12T14:14:12.384Z</updated>
+    <link href="http://yoursite.com/2020/08/13/%E9%87%91%E7%8C%AA%E5%8D%9A%E5%AE%A22.0%E5%BC%80%E5%90%AF/"/>
+    <id>http://yoursite.com/2020/08/13/%E9%87%91%E7%8C%AA%E5%8D%9A%E5%AE%A22.0%E5%BC%80%E5%90%AF/</id>
+    <published>2020-08-13T14:00:00.000Z</published>
+    <updated>2020-08-13T13:59:55.044Z</updated>
     
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2020/08/12/hello-world/"/>
-    <id>http://yoursite.com/2020/08/12/hello-world/</id>
-    <published>2020-08-12T01:53:41.541Z</published>
-    <updated>2020-08-12T01:53:41.541Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>在2019年8月13日，大金猪成立了第一个博客，<strong>金猪博客</strong>，史称金猪博客1.0。<br>在一年后的今天，也就是2020年8月13日，我重启了<strong>金猪博客</strong>，改进了博客的UI界面，使用<strong>Hexo</strong>的引擎，从<strong>PHP</strong>转变为<strong>HTML</strong>，其好处是<strong>速度快</strong>，<strong>性能好</strong>，又有PHP的主要<strong>优点</strong>。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;p&gt;在2019年8月13日，大金猪成立了第一个博客，&lt;strong&gt;金猪博客&lt;/strong&gt;，史称金猪博客1.0。&lt;br&gt;在一年后的今天，也就是2020年8月13日，我重启了&lt;strong&gt;金猪博客&lt;/strong&gt;，改进了博客的UI界面，使用&lt;strong&gt;Hexo&lt;/st</summary>
       
     
     
     
+    
+    <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
