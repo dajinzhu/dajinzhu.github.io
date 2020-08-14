@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-14T00:49:07.107Z</updated>
+  <updated>2020-08-14T00:55:11.296Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://yoursite.com/2020/08/13/%E9%87%91%E7%8C%AA%E5%8D%9A%E5%AE%A22.0%E5%BC%80%E5%90%AF/"/>
     <id>http://yoursite.com/2020/08/13/%E9%87%91%E7%8C%AA%E5%8D%9A%E5%AE%A22.0%E5%BC%80%E5%90%AF/</id>
     <published>2020-08-13T14:00:00.000Z</published>
-    <updated>2020-08-14T00:49:07.107Z</updated>
+    <updated>2020-08-14T00:55:11.296Z</updated>
     
-    <content type="html"><![CDATA[<p>在2019年8月13日，大金猪成立了第一个博客，<strong>金猪博客</strong>，史称金猪博客1.0。<br>在一年后的今天，也就是2020年8月13日，我重启了<strong>金猪博客</strong>，改进了博客的UI界面，使用<strong>Hexo</strong>的引擎，从<strong>PHP</strong>转变为<strong>HTML</strong>，其好处是<strong>速度快</strong>，<strong>性能好</strong>，又有PHP的主要<strong>优点</strong>。</p><p><img src="https://i.loli.net/2020/08/14/DfzXh7qmJL2evr6.png" alt="金猪博客.png"></p><p>你还记得吗？这是<strong>金猪博客1.0</strong>的logo。</p><p><strong>金猪博客</strong>现在是运行在<strong>Github Page</strong>上的，所以他是<strong>免费</strong>的。</p><p>所以说金猪博客会<em>永久</em>的开放。</p>]]></content>
+    <content type="html"><![CDATA[<p>在2019年8月13日，大金猪成立了第一个博客，<strong>金猪博客</strong>，史称金猪博客1.0。<br> &lt; !– more –&gt;<br>在一年后的今天，也就是2020年8月13日，我重启了<strong>金猪博客</strong>，改进了博客的UI界面，使用<strong>Hexo</strong>的引擎，从<strong>PHP</strong>转变为<strong>HTML</strong>，其好处是<strong>速度快</strong>，<strong>性能好</strong>，又有PHP的主要<strong>优点</strong>。</p><p><img src="https://i.loli.net/2020/08/14/DfzXh7qmJL2evr6.png" alt="金猪博客.png"></p><p>你还记得吗？这是<strong>金猪博客1.0</strong>的logo。</p><p><strong>金猪博客</strong>现在是运行在<strong>Github Page</strong>上的，所以他是<strong>免费</strong>的。</p><p>所以说金猪博客会<em>永久</em>的开放。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;在2019年8月13日，大金猪成立了第一个博客，&lt;strong&gt;金猪博客&lt;/strong&gt;，史称金猪博客1.0。&lt;br&gt;在一年后的今天，也就是2020年8月13日，我重启了&lt;strong&gt;金猪博客&lt;/strong&gt;，改进了博客的UI界面，使用&lt;strong&gt;Hexo&lt;/st</summary>
+    <summary type="html">&lt;p&gt;在2019年8月13日，大金猪成立了第一个博客，&lt;strong&gt;金猪博客&lt;/strong&gt;，史称金猪博客1.0。&lt;br&gt; &amp;lt; !– more –&amp;gt;&lt;br&gt;在一年后的今天，也就是2020年8月13日，我重启了&lt;strong&gt;金猪博客&lt;/strong&gt;，改进了博客的</summary>
       
     
     
