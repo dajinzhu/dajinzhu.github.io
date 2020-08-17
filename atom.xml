@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-16T13:56:26.359Z</updated>
+  <updated>2020-08-17T14:00:12.534Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>诗</title>
+    <link href="http://yoursite.com/2020/08/17/%E8%AF%97/"/>
+    <id>http://yoursite.com/2020/08/17/%E8%AF%97/</id>
+    <published>2020-08-17T13:50:52.000Z</published>
+    <updated>2020-08-17T14:00:12.534Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>最新诗文：</strong></p><p><img src="https://i.loli.net/2020/08/17/YDHtOm6g4Izh2wq.jpg" alt="3B5A58EC034C059CC44A41DA1360D7EB.jpg"></p><a id="more"></a><p><img src="https://i.loli.net/2020/08/17/Z3WMtlChIRD4Ubj.jpg" alt="FD0EF4CB9A676D00590C14E27E27DA1A.jpg"><br><img src="https://i.loli.net/2020/08/17/Bs1lzcTAfVoq9MZ.jpg" alt="EB4C0D6854978E80963DBFB0F6306764.jpg"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;最新诗文：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/08/17/YDHtOm6g4Izh2wq.jpg&quot; alt=&quot;3B5A58EC034C059CC44A41DA1360D7EB.jpg&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="诗词" scheme="http://yoursite.com/categories/%E8%AF%97%E8%AF%8D/"/>
+    
+    
+    <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>HTML-20200814</title>
