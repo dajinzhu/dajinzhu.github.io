@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-17T14:00:12.534Z</updated>
+  <updated>2020-08-19T13:56:45.462Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java面向对象编程学习笔记（一）</title>
+    <link href="http://yoursite.com/2020/08/19/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>http://yoursite.com/2020/08/19/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/</id>
+    <published>2020-08-19T13:52:02.000Z</published>
+    <updated>2020-08-19T13:56:45.462Z</updated>
+    
+    <content type="html"><![CDATA[<p>封装<strong>、</strong>继承<strong>、</strong>多态**。</p><h2 id="1-基本概念"><a href="#1-基本概念" class="headerlink" title="1.基本概念"></a>1.基本概念</h2><blockquote><p>程序中包含各种独立而又互相调用的对象的思想。—– Wikipedia</p></blockquote><ol><li>先整体，再局部</li><li>先抽象，再具体</li><li>能做什么，再怎么做<a id="more"></a></li></ol><h2 id="2-Java类和对象"><a href="#2-Java类和对象" class="headerlink" title="2.Java类和对象"></a>2.Java类和对象</h2><p>类的定义：</p><p><code>class 类名称&#123;</code><br><code>属性名称;</code><br><code>返回值类型 方法名称()&#123;&#125;</code><br><code>&#125;</code></p><p>操作要用到对象，对象定义如下：</p><p><code>类名称 对象名称 = new 类名称() ;</code></p><p>访问类中方法或属性：</p><p><code>访问类中的属性：对象.属性 ;</code><br><code>调用类中的方法：对象.方法();</code></p><h2 id="3-封装性"><a href="#3-封装性" class="headerlink" title="3.封装性"></a>3.封装性</h2><h3 id="3-1-封装性的概念"><a href="#3-1-封装性的概念" class="headerlink" title="3.1 封装性的概念"></a>3.1 封装性的概念</h3><blockquote><p>封装性是面向对象思想的三大特征之一，封装就是隐藏实现细节，仅对外提供访问接口。实现细节部份包装、隐藏起来的方法。</p></blockquote><p>封装有：<strong>属性的封装</strong>、<strong>方法的封装</strong>、<strong>类的封装</strong>、<strong>组件的封装</strong>、<strong>模块化封装</strong>、<strong>系统级封装</strong><br>封装的好处：<strong>模块化</strong>、<strong>信息隐藏</strong>、<strong>代码重用</strong>、<strong>插件化易于调试</strong>、<strong>具有安全性</strong><br>封装的缺点：**会影响执行效率</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;封装&lt;strong&gt;、&lt;/strong&gt;继承&lt;strong&gt;、&lt;/strong&gt;多态**。&lt;/p&gt;
+&lt;h2 id=&quot;1-基本概念&quot;&gt;&lt;a href=&quot;#1-基本概念&quot; class=&quot;headerlink&quot; title=&quot;1.基本概念&quot;&gt;&lt;/a&gt;1.基本概念&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;程序中包含各种独立而又互相调用的对象的思想。—– Wikipedia&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;先整体，再局部&lt;/li&gt;
+&lt;li&gt;先抽象，再具体&lt;/li&gt;
+&lt;li&gt;能做什么，再怎么做</summary>
+    
+    
+    
+    <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+    
+    
+    <category term="笔记" scheme="http://yoursite.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>诗</title>
