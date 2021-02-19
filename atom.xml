@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-11-15T07:12:14.674Z</updated>
+  <updated>2021-02-19T14:35:29.896Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新年快乐</title>
+    <link href="http://yoursite.com/2021/02/12/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/"/>
+    <id>http://yoursite.com/2021/02/12/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</id>
+    <published>2021-02-11T16:00:00.000Z</published>
+    <updated>2021-02-19T14:35:29.896Z</updated>
+    
+    <content type="html"><![CDATA[<p>大金猪（陈锡）辛丑牛年<strong>新春贺词</strong>：</p><p>祝大家<u>新春快乐</u>，<u>万事如意</u>！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;大金猪（陈锡）辛丑牛年&lt;strong&gt;新春贺词&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;祝大家&lt;u&gt;新春快乐&lt;/u&gt;，&lt;u&gt;万事如意&lt;/u&gt;！&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="公告" scheme="http://yoursite.com/categories/%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>Java面向对象编程学习笔记（一）</title>
