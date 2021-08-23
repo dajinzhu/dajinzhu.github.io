@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>金猪博客</title>
+  
+  
+  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2021-02-19T14:35:29.896Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>陈锡</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新年快乐</title>
+    <link href="http://yoursite.com/2021/02/12/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/"/>
+    <id>http://yoursite.com/2021/02/12/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</id>
+    <published>2021-02-11T16:00:00.000Z</published>
+    <updated>2021-02-19T14:35:29.896Z</updated>
+    
+    <content type="html"><![CDATA[<p>大金猪（陈锡）辛丑牛年<strong>新春贺词</strong>：</p><p>祝大家<u>新春快乐</u>，<u>万事如意</u>！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;大金猪（陈锡）辛丑牛年&lt;strong&gt;新春贺词&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;祝大家&lt;u&gt;新春快乐&lt;/u&gt;，&lt;u&gt;万事如意&lt;/u&gt;！&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="公告" scheme="http://yoursite.com/categories/%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java面向对象编程学习笔记（一）</title>
+    <link href="http://yoursite.com/2020/08/19/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>http://yoursite.com/2020/08/19/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/</id>
+    <published>2020-08-19T13:52:02.000Z</published>
+    <updated>2020-11-15T07:12:14.674Z</updated>
+    
+    <content type="html"><![CDATA[<p>封装<strong>、</strong>继承<strong>、</strong>多态。</p><h2 id="1-基本概念"><a href="#1-基本概念" class="headerlink" title="1.基本概念"></a>1.基本概念</h2><blockquote><p>程序中包含各种独立而又互相调用的对象的思想。—– Wikipedia</p></blockquote><ol><li>先整体，再局部</li><li>先抽象，再具体</li><li>能做什么，再怎么做<a id="more"></a></li></ol><h2 id="2-Java类和对象"><a href="#2-Java类和对象" class="headerlink" title="2.Java类和对象"></a>2.Java类和对象</h2><p>类的定义：</p><p><code>class 类名称&#123;</code><br><code>属性名称;</code><br><code>返回值类型 方法名称()&#123;&#125;</code><br><code>&#125;</code></p><p>操作要用到对象，对象定义如下：</p><p><code>类名称 对象名称 = new 类名称() ;</code></p><p>访问类中方法或属性：</p><p><code>访问类中的属性：对象.属性 ;</code><br><code>调用类中的方法：对象.方法();</code></p><h2 id="3-封装性"><a href="#3-封装性" class="headerlink" title="3.封装性"></a>3.封装性</h2><h3 id="3-1-封装性的概念"><a href="#3-1-封装性的概念" class="headerlink" title="3.1 封装性的概念"></a>3.1 封装性的概念</h3><blockquote><p>封装性是面向对象思想的三大特征之一，封装就是隐藏实现细节，仅对外提供访问接口。实现细节部份包装、隐藏起来的方法。</p></blockquote><p>封装有：<strong>属性的封装</strong>、<strong>方法的封装</strong>、<strong>类的封装</strong>、<strong>组件的封装</strong>、<strong>模块化封装</strong>、<strong>系统级封装</strong><br>封装的好处：<strong>模块化</strong>、<strong>信息隐藏</strong>、<strong>代码重用</strong>、<strong>插件化易于调试</strong>、<strong>具有安全性</strong><br>封装的缺点：**会影响执行效率</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;封装&lt;strong&gt;、&lt;/strong&gt;继承&lt;strong&gt;、&lt;/strong&gt;多态。&lt;/p&gt;
+&lt;h2 id=&quot;1-基本概念&quot;&gt;&lt;a href=&quot;#1-基本概念&quot; class=&quot;headerlink&quot; title=&quot;1.基本概念&quot;&gt;&lt;/a&gt;1.基本概念&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;程序中包含各种独立而又互相调用的对象的思想。—– Wikipedia&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;先整体，再局部&lt;/li&gt;
+&lt;li&gt;先抽象，再具体&lt;/li&gt;
+&lt;li&gt;能做什么，再怎么做</summary>
+    
+    
+    
+    <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+    
+    
+    <category term="笔记" scheme="http://yoursite.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>诗</title>
+    <link href="http://yoursite.com/2020/08/17/%E8%AF%97/"/>
+    <id>http://yoursite.com/2020/08/17/%E8%AF%97/</id>
+    <published>2020-08-17T13:50:52.000Z</published>
+    <updated>2020-08-17T14:00:12.534Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>最新诗文：</strong></p><p><img src="https://i.loli.net/2020/08/17/YDHtOm6g4Izh2wq.jpg" alt="3B5A58EC034C059CC44A41DA1360D7EB.jpg"></p><a id="more"></a><p><img src="https://i.loli.net/2020/08/17/Z3WMtlChIRD4Ubj.jpg" alt="FD0EF4CB9A676D00590C14E27E27DA1A.jpg"><br><img src="https://i.loli.net/2020/08/17/Bs1lzcTAfVoq9MZ.jpg" alt="EB4C0D6854978E80963DBFB0F6306764.jpg"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;最新诗文：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/08/17/YDHtOm6g4Izh2wq.jpg&quot; alt=&quot;3B5A58EC034C059CC44A41DA1360D7EB.jpg&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="诗词" scheme="http://yoursite.com/categories/%E8%AF%97%E8%AF%8D/"/>
+    
+    
+    <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML-20200814</title>
+    <link href="http://yoursite.com/2020/08/14/HTML/"/>
+    <id>http://yoursite.com/2020/08/14/HTML/</id>
+    <published>2020-08-14T13:13:19.000Z</published>
+    <updated>2020-08-16T13:56:26.359Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="HTML的使用·基本语法"><a href="#HTML的使用·基本语法" class="headerlink" title="HTML的使用·基本语法"></a>HTML的使用·基本语法</h1><h2 id="代码示例如下"><a href="#代码示例如下" class="headerlink" title="代码示例如下:"></a>代码示例如下:</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>金猪博客<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"> </span><br><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>标题<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"> </span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>段落。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"> </span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure><a id="more"></a><p><strong>HTML</strong> 是用来描述网页的一种语言。</p><p><strong>Web浏览器</strong>是用于读取<em>HTML</em>文件，并将其作为网页显示。</p><table><thead><tr><th align="left">版本</th><th align="left">发布时间</th></tr></thead><tbody><tr><td align="left">HTML</td><td align="left">1991</td></tr><tr><td align="left">HTML+</td><td align="left">1993</td></tr><tr><td align="left">HTML 2.0</td><td align="left">1995</td></tr><tr><td align="left">HTML 3.2</td><td align="left">1997</td></tr><tr><td align="left">HTML 4.01</td><td align="left">1999</td></tr><tr><td align="left">XHTML 1.0</td><td align="left">2000</td></tr><tr><td align="left">HTML5</td><td align="left">2012</td></tr><tr><td align="left">XHTML5</td><td align="left">2013</td></tr></tbody></table>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;HTML的使用·基本语法&quot;&gt;&lt;a href=&quot;#HTML的使用·基本语法&quot; class=&quot;headerlink&quot; title=&quot;HTML的使用·基本语法&quot;&gt;&lt;/a&gt;HTML的使用·基本语法&lt;/h1&gt;&lt;h2 id=&quot;代码示例如下&quot;&gt;&lt;a href=&quot;#代码示例如下&quot; class=&quot;headerlink&quot; title=&quot;代码示例如下:&quot;&gt;&lt;/a&gt;代码示例如下:&lt;/h2&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;lt;!DOCTYPE &lt;span class=&quot;meta-keyword&quot;&gt;html&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;html&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;head&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;charset&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;utf-8&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;title&lt;/span&gt;&amp;gt;&lt;/span&gt;金猪博客&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;title&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;head&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;h1&lt;/span&gt;&amp;gt;&lt;/span&gt;标题&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;h1&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;段落。&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;html&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="HTML" scheme="http://yoursite.com/categories/HTML/"/>
+    
+    
+    <category term="笔记" scheme="http://yoursite.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>金猪博客2.0开启</title>
+    <link href="http://yoursite.com/2020/08/13/%E9%87%91%E7%8C%AA%E5%8D%9A%E5%AE%A22.0%E5%BC%80%E5%90%AF/"/>
+    <id>http://yoursite.com/2020/08/13/%E9%87%91%E7%8C%AA%E5%8D%9A%E5%AE%A22.0%E5%BC%80%E5%90%AF/</id>
+    <published>2020-08-13T14:00:00.000Z</published>
+    <updated>2020-08-16T13:14:55.930Z</updated>
+    
+    <content type="html"><![CDATA[<p>在2019年8月13日，大金猪成立了第一个博客，<strong>金猪博客</strong>，史称金猪博客1.0。</p><a id="more"></a><p>在一年后的今天，也就是2020年8月13日，我重启了<strong>金猪博客</strong>，改进了博客的UI界面，使用<strong>Hexo</strong>的引擎，从<strong>PHP</strong>转变为<strong>HTML</strong>，其好处是<strong>速度快</strong>，<strong>性能好</strong>，又有PHP的主要<strong>优点</strong>。</p><p><img src="https://i.loli.net/2020/08/14/DfzXh7qmJL2evr6.png" alt="金猪博客.png"></p><p>你还记得吗？这是<strong>金猪博客1.0</strong>的logo。</p><p><strong>金猪博客</strong>现在是运行在<strong>Github Page</strong>上的，所以他是<strong>免费</strong>的。</p><p>所以说金猪博客会<em>永久</em>的开放。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;在2019年8月13日，大金猪成立了第一个博客，&lt;strong&gt;金猪博客&lt;/strong&gt;，史称金猪博客1.0。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="公告" scheme="http://yoursite.com/categories/%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>
