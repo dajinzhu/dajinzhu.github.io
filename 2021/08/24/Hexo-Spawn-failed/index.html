@@ -23,20 +23,21 @@
     var CONFIG = {"hostname":"jzbk.xyz","root":"/","scheme":"Pisces","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"path":"search.xml","localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
 
-  <meta name="description" content="404">
-<meta property="og:type" content="website">
-<meta property="og:title" content="404 Not Found：该页无法显示">
-<meta property="og:url" content="https://jzbk.xyz/404.html">
+  <meta name="description" content="开始很久没用Hexo写文章发布在本博客上了，前天打开，想要更新新一下我的博客。 经过糟了，hexo发生error：spawn failed 探索网上搜的方法基本上都不可用； 后来我查了一资料，原来提交github仓库不能用用户名&#x2F;密码登录，也就是不能用https提交了， 只能用ssh。（原因是不支持了？） 其实用原来的方法 git push 都要入每次都要输入用户名密码…… 实现现在我的方法是这样">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo奇遇记-Spwan failed解决">
+<meta property="og:url" content="https://jzbk.xyz/2021/08/24/Hexo-Spawn-failed/index.html">
 <meta property="og:site_name" content="金猪博客">
-<meta property="og:description" content="404">
+<meta property="og:description" content="开始很久没用Hexo写文章发布在本博客上了，前天打开，想要更新新一下我的博客。 经过糟了，hexo发生error：spawn failed 探索网上搜的方法基本上都不可用； 后来我查了一资料，原来提交github仓库不能用用户名&#x2F;密码登录，也就是不能用https提交了， 只能用ssh。（原因是不支持了？） 其实用原来的方法 git push 都要入每次都要输入用户名密码…… 实现现在我的方法是这样">
 <meta property="og:locale">
-<meta property="article:published_time" content="2020-08-13T12:53:29.131Z">
-<meta property="article:modified_time" content="2020-08-13T12:53:29.131Z">
+<meta property="article:published_time" content="2021-08-24T09:00:00.000Z">
+<meta property="article:modified_time" content="2021-08-24T08:56:32.519Z">
 <meta property="article:author" content="陈锡">
+<meta property="article:tag" content="笔记">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://jzbk.xyz/404">
+<link rel="canonical" href="https://jzbk.xyz/2021/08/24/Hexo-Spawn-failed/">
 
 
 <script class="page-configurations">
@@ -44,13 +45,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-Hans'
   };
 </script>
 
-  <title>404 Not Found：该页无法显示 | 金猪博客
-</title>
+  <title>Hexo奇遇记-Spwan failed解决 | 金猪博客</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=283772095"></script>
     <script>
@@ -218,7 +218,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -230,6 +230,7 @@
 
       <!--noindex-->
       <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B"><span class="nav-number">1.</span> <span class="nav-text">开始</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%8F%E8%BF%87"><span class="nav-number">2.</span> <span class="nav-text">经过</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8E%A2%E7%B4%A2"><span class="nav-number">3.</span> <span class="nav-text">探索</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9E%E7%8E%B0"><span class="nav-number">4.</span> <span class="nav-text">实现</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%93%E6%9D%9F"><span class="nav-number">5.</span> <span class="nav-text">结束</span></a></li></ol></div>
       </section>
       <!--/noindex-->
 
@@ -303,57 +304,187 @@
 </noscript>
 
 
-    <div class="main-inner page posts-expand">
+    <div class="main-inner post posts-expand">
       
-  
-  
 
       
 
     
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://jzbk.xyz/2021/08/24/Hexo-Spawn-failed/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/image/chenxi.jpeg">
+      <meta itemprop="name" content="陈锡">
+      <meta itemprop="description" content="会当凌绝顶 一览众山小">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="金猪博客">
+    </span>
+
     
     
-    <div class="post-block" lang="zh-Hans">
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Hexo奇遇记-Spwan failed解决
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">404 Not Found：该页无法显示
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
 
-<div class="post-meta">
+              <time title="创建时间：2021-08-24 17:00:00 / 修改时间：16:56:32" itemprop="dateCreated datePublished" datetime="2021-08-24T17:00:00+08:00">2021-08-24</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%BB%BA%E7%AB%99/" itemprop="url" rel="index"><span itemprop="name">建站</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="far fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
   
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/08/24/Hexo-Spawn-failed/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/08/24/Hexo-Spawn-failed/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>481</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
 
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><p>很久没用<strong>Hexo</strong>写文章发布在本博客上了，前天打开，想要更新新一下我的博客。</p>
+<h3 id="经过"><a href="#经过" class="headerlink" title="经过"></a>经过</h3><p>糟了，<strong>hexo</strong>发生<strong>error</strong>：<em>spawn failed</em></p>
+<h3 id="探索"><a href="#探索" class="headerlink" title="探索"></a>探索</h3><p>网上搜的方法基本上都不可用；</p>
+<p>后来我查了一资料，原来提交<strong>github</strong>仓库不能用<strong>用户名/密码</strong>登录，也就是不能用<strong>https</strong>提交了，</p>
+<p>只能用<strong>ssh</strong>。（原因是<strong>不支持</strong>了？）</p>
+<p>其实用<strong>原来的方法</strong> <em>git push</em> 都要入每次都要输入用户名密码……</p>
+<h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><p>现在我的<strong>方法</strong>是这样的：</p>
+<p>1.在<strong>Linux</strong>的<strong>终端</strong>查看当前remote</p>
+<p><code>git remote -v</code></p>
+<p>2.准备好自己的<strong>密钥</strong></p>
+<p><code>ssh-keygen -t rsa -C &quot;你的名字&quot;</code></p>
+<p>3.然后登录</p>
+<p><code>https://github.com/settings/ssh</code></p>
+<p>4.查看<code>~/.ssh/id_rsa.pub</code>文本内容并添加到上面的网址。</p>
+<p>5.检验</p>
+<p><code>ssh git@github.com</code></p>
+<p>6.如果成功，会出现这个</p>
+<p><code>Hi dajinzhu! You&#39;ve successfully authenticated, but GitHub does not provide shell access.</code></p>
+<h3 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h3><p>然后我就可以正常的更新<strong>hexo</strong>到<strong>github</strong>上了。</p>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>陈锡
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://jzbk.xyz/2021/08/24/Hexo-Spawn-failed/" title="Hexo奇遇记-Spwan failed解决">https://jzbk.xyz/2021/08/24/Hexo-Spawn-failed/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
 </div>
 
-</header>
+        
 
-      
-      
-      
-      <div class="post-body">
-          <!DOCTYPE html>
-<html>
-    <head>
-         <meta charset="UTF-8" />
-         <title>404</title>                                                                                                                                        
-    </head>
-    <body>
-         <script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" homePageName="返回首页" homePageUrl="https://jzbk.xyz"></script>
-    </body>
-</html>
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
 
-      </div>
-      
-      
-      
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
     </div>
-    
+  </div>
 
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag"># 笔记</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/02/12/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/" rel="prev" title="新年快乐">
+                  <i class="fa fa-chevron-left"></i> 新年快乐
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+      </footer>
     
-    
-    
+  </article>
+  
+  
+  
+
 
 
       
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
