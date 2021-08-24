@@ -61,6 +61,7 @@
     <url>/2021/08/24/Hexo-Spawn-failed/</url>
     <content><![CDATA[<h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><p>很久没用<strong>Hexo</strong>写文章发布在本博客上了，前天打开，想要更新新一下我的博客。</p>
 <h3 id="经过"><a href="#经过" class="headerlink" title="经过"></a>经过</h3><p>糟了，<strong>hexo</strong>发生<strong>error</strong>：<em>spawn failed</em></p>
+<a id="more"></a>
 <h3 id="探索"><a href="#探索" class="headerlink" title="探索"></a>探索</h3><p>网上搜的方法基本上都不可用；</p>
 <p>后来我查了一资料，原来提交<strong>github</strong>仓库不能用<strong>用户名/密码</strong>登录，也就是不能用<strong>https</strong>提交了，</p>
 <p>只能用<strong>ssh</strong>。（原因是<strong>不支持</strong>了？）</p>

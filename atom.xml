@@ -6,7 +6,7 @@
   <link href="https://jzbk.xyz/atom.xml" rel="self"/>
   
   <link href="https://jzbk.xyz/"/>
-  <updated>2021-08-24T08:56:32.519Z</updated>
+  <updated>2021-08-24T09:00:09.507Z</updated>
   <id>https://jzbk.xyz/</id>
   
   <author>
@@ -21,16 +21,13 @@
     <link href="https://jzbk.xyz/2021/08/24/Hexo-Spawn-failed/"/>
     <id>https://jzbk.xyz/2021/08/24/Hexo-Spawn-failed/</id>
     <published>2021-08-24T09:00:00.000Z</published>
-    <updated>2021-08-24T08:56:32.519Z</updated>
+    <updated>2021-08-24T09:00:09.507Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><p>很久没用<strong>Hexo</strong>写文章发布在本博客上了，前天打开，想要更新新一下我的博客。</p><h3 id="经过"><a href="#经过" class="headerlink" title="经过"></a>经过</h3><p>糟了，<strong>hexo</strong>发生<strong>error</strong>：<em>spawn failed</em></p><h3 id="探索"><a href="#探索" class="headerlink" title="探索"></a>探索</h3><p>网上搜的方法基本上都不可用；</p><p>后来我查了一资料，原来提交<strong>github</strong>仓库不能用<strong>用户名/密码</strong>登录，也就是不能用<strong>https</strong>提交了，</p><p>只能用<strong>ssh</strong>。（原因是<strong>不支持</strong>了？）</p><p>其实用<strong>原来的方法</strong> <em>git push</em> 都要入每次都要输入用户名密码……</p><h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><p>现在我的<strong>方法</strong>是这样的：</p><p>1.在<strong>Linux</strong>的<strong>终端</strong>查看当前remote</p><p><code>git remote -v</code></p><p>2.准备好自己的<strong>密钥</strong></p><p><code>ssh-keygen -t rsa -C &quot;你的名字&quot;</code></p><p>3.然后登录</p><p><code>https://github.com/settings/ssh</code></p><p>4.查看<code>~/.ssh/id_rsa.pub</code>文本内容并添加到上面的网址。</p><p>5.检验</p><p><code>ssh git@github.com</code></p><p>6.如果成功，会出现这个</p><p><code>Hi dajinzhu! You&#39;ve successfully authenticated, but GitHub does not provide shell access.</code></p><h3 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h3><p>然后我就可以正常的更新<strong>hexo</strong>到<strong>github</strong>上了。</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><p>很久没用<strong>Hexo</strong>写文章发布在本博客上了，前天打开，想要更新新一下我的博客。</p><h3 id="经过"><a href="#经过" class="headerlink" title="经过"></a>经过</h3><p>糟了，<strong>hexo</strong>发生<strong>error</strong>：<em>spawn failed</em></p><a id="more"></a><h3 id="探索"><a href="#探索" class="headerlink" title="探索"></a>探索</h3><p>网上搜的方法基本上都不可用；</p><p>后来我查了一资料，原来提交<strong>github</strong>仓库不能用<strong>用户名/密码</strong>登录，也就是不能用<strong>https</strong>提交了，</p><p>只能用<strong>ssh</strong>。（原因是<strong>不支持</strong>了？）</p><p>其实用<strong>原来的方法</strong> <em>git push</em> 都要入每次都要输入用户名密码……</p><h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><p>现在我的<strong>方法</strong>是这样的：</p><p>1.在<strong>Linux</strong>的<strong>终端</strong>查看当前remote</p><p><code>git remote -v</code></p><p>2.准备好自己的<strong>密钥</strong></p><p><code>ssh-keygen -t rsa -C &quot;你的名字&quot;</code></p><p>3.然后登录</p><p><code>https://github.com/settings/ssh</code></p><p>4.查看<code>~/.ssh/id_rsa.pub</code>文本内容并添加到上面的网址。</p><p>5.检验</p><p><code>ssh git@github.com</code></p><p>6.如果成功，会出现这个</p><p><code>Hi dajinzhu! You&#39;ve successfully authenticated, but GitHub does not provide shell access.</code></p><h3 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h3><p>然后我就可以正常的更新<strong>hexo</strong>到<strong>github</strong>上了。</p>]]></content>
     
     
-      
-      
     <summary type="html">&lt;h3 id=&quot;开始&quot;&gt;&lt;a href=&quot;#开始&quot; class=&quot;headerlink&quot; title=&quot;开始&quot;&gt;&lt;/a&gt;开始&lt;/h3&gt;&lt;p&gt;很久没用&lt;strong&gt;Hexo&lt;/strong&gt;写文章发布在本博客上了，前天打开，想要更新新一下我的博客。&lt;/p&gt;
-&lt;h3 id=&quot;经过&quot;</summary>
-      
+&lt;h3 id=&quot;经过&quot;&gt;&lt;a href=&quot;#经过&quot; class=&quot;headerlink&quot; title=&quot;经过&quot;&gt;&lt;/a&gt;经过&lt;/h3&gt;&lt;p&gt;糟了，&lt;strong&gt;hexo&lt;/strong&gt;发生&lt;strong&gt;error&lt;/strong&gt;：&lt;em&gt;spawn failed&lt;/em&gt;&lt;/p&gt;</summary>
     
     
     
