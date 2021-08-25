@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>HTML-20200814</title>
-    <url>/2020/08/14/HTML/</url>
+    <url>/2020/08/14/HTML-20200814/</url>
     <content><![CDATA[<h1 id="HTML的使用·基本语法"><a href="#HTML的使用·基本语法" class="headerlink" title="HTML的使用·基本语法"></a>HTML的使用·基本语法</h1><h2 id="代码示例如下"><a href="#代码示例如下" class="headerlink" title="代码示例如下:"></a>代码示例如下:</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>金猪博客<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"> </span><br><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>标题<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"> </span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>段落。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"> </span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 
@@ -57,6 +57,19 @@
       </tags>
   </entry>
   <entry>
+    <title>新年快乐</title>
+    <url>/2021/02/12/Happy-Chinese-New-Year-2021/</url>
+    <content><![CDATA[<p>大金猪（陈锡）辛丑牛年<strong>新春贺词</strong>：</p>
+<p>祝大家<u>新春快乐</u>，<u>万事如意</u>！</p>
+]]></content>
+      <categories>
+        <category>公告</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo奇遇记-Spwan failed解决</title>
     <url>/2021/08/24/Hexo-Spawn-failed/</url>
     <content><![CDATA[<h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><p>很久没用<strong>Hexo</strong>写文章发布在本博客上了，前天打开，想要更新新一下我的博客。</p>
@@ -89,7 +102,7 @@
   </entry>
   <entry>
     <title>Java面向对象编程学习笔记（一）</title>
-    <url>/2020/08/19/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <url>/2020/08/19/Java-note1/</url>
     <content><![CDATA[<p>封装<strong>、</strong>继承<strong>、</strong>多态。</p>
 <h2 id="1-基本概念"><a href="#1-基本概念" class="headerlink" title="1.基本概念"></a>1.基本概念</h2><blockquote>
 <p>程序中包含各种独立而又互相调用的对象的思想。—– Wikipedia</p>
@@ -120,36 +133,8 @@
       </tags>
   </entry>
   <entry>
-    <title>新年快乐</title>
-    <url>/2021/02/12/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</url>
-    <content><![CDATA[<p>大金猪（陈锡）辛丑牛年<strong>新春贺词</strong>：</p>
-<p>祝大家<u>新春快乐</u>，<u>万事如意</u>！</p>
-]]></content>
-      <categories>
-        <category>公告</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>诗</title>
-    <url>/2020/08/17/%E8%AF%97/</url>
-    <content><![CDATA[<p><strong>最新诗文：</strong></p>
-<p><img src="https://i.loli.net/2020/08/17/YDHtOm6g4Izh2wq.jpg" alt="3B5A58EC034C059CC44A41DA1360D7EB.jpg"></p>
-<a id="more"></a>
-<p><img src="https://i.loli.net/2020/08/17/Z3WMtlChIRD4Ubj.jpg" alt="FD0EF4CB9A676D00590C14E27E27DA1A.jpg"><br><img src="https://i.loli.net/2020/08/17/Bs1lzcTAfVoq9MZ.jpg" alt="EB4C0D6854978E80963DBFB0F6306764.jpg"></p>
-]]></content>
-      <categories>
-        <category>诗词</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>金猪博客2.0开启</title>
-    <url>/2020/08/13/%E9%87%91%E7%8C%AA%E5%8D%9A%E5%AE%A22.0%E5%BC%80%E5%90%AF/</url>
+    <url>/2020/08/13/jzbk2-open/</url>
     <content><![CDATA[<p>在2019年8月13日，大金猪成立了第一个博客，<strong>金猪博客</strong>，史称金猪博客1.0。</p>
 <a id="more"></a>
 
@@ -161,6 +146,21 @@
 ]]></content>
       <categories>
         <category>公告</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>诗</title>
+    <url>/2020/08/17/poem/</url>
+    <content><![CDATA[<p><strong>最新诗文：</strong></p>
+<p><img src="https://i.loli.net/2020/08/17/YDHtOm6g4Izh2wq.jpg" alt="3B5A58EC034C059CC44A41DA1360D7EB.jpg"></p>
+<a id="more"></a>
+<p><img src="https://i.loli.net/2020/08/17/Z3WMtlChIRD4Ubj.jpg" alt="FD0EF4CB9A676D00590C14E27E27DA1A.jpg"><br><img src="https://i.loli.net/2020/08/17/Bs1lzcTAfVoq9MZ.jpg" alt="EB4C0D6854978E80963DBFB0F6306764.jpg"></p>
+]]></content>
+      <categories>
+        <category>诗词</category>
       </categories>
       <tags>
         <tag>随笔</tag>
