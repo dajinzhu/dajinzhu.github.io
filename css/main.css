@@ -182,7 +182,7 @@ body {
   background: var(--body-bg-color);
   color: var(--text-color);
   font-family: Noto Serif SC, "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 24em;
+  font-size: 30em;
   line-height: 2;
   min-height: 100%;
   position: relative;
