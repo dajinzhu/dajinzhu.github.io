@@ -182,7 +182,7 @@ body {
   background: var(--body-bg-color);
   color: var(--text-color);
   font-family: Noto Serif SC, "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 30em;
+  font-size: 1em;
   line-height: 2;
   min-height: 100%;
   position: relative;
@@ -1198,7 +1198,7 @@ pre code {
 }
 .site-title {
   font-family: Liu Jian Mao Cao, Noto Serif SC, "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 1.375em;
+  font-size: 24em;
   font-weight: normal;
   margin: 0;
 }
