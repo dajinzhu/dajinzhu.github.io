@@ -114,6 +114,38 @@
       </tags>
   </entry>
   <entry>
+    <title>Java面向对象编程学习笔记（一）</title>
+    <url>/2020/08/19/Java-note1/</url>
+    <content><![CDATA[<p>封装<strong>、</strong>继承<strong>、</strong>多态。</p>
+<h2 id="1-基本概念"><a href="#1-基本概念" class="headerlink" title="1.基本概念"></a>1.基本概念</h2><blockquote>
+<p>程序中包含各种独立而又互相调用的对象的思想。—– Wikipedia</p>
+</blockquote>
+<ol>
+<li>先整体，再局部</li>
+<li>先抽象，再具体</li>
+<li>能做什么，再怎么做<a id="more"></a>
+
+</li>
+</ol>
+<h2 id="2-Java类和对象"><a href="#2-Java类和对象" class="headerlink" title="2.Java类和对象"></a>2.Java类和对象</h2><p>类的定义：</p>
+<p><code>class 类名称&#123;</code><br><code>属性名称;</code><br><code>返回值类型 方法名称()&#123;&#125;</code><br><code>&#125;</code></p>
+<p>操作要用到对象，对象定义如下：</p>
+<p><code>类名称 对象名称 = new 类名称() ;</code></p>
+<p>访问类中方法或属性：</p>
+<p><code>访问类中的属性：对象.属性 ;</code><br><code>调用类中的方法：对象.方法();</code></p>
+<h2 id="3-封装性"><a href="#3-封装性" class="headerlink" title="3.封装性"></a>3.封装性</h2><h3 id="3-1-封装性的概念"><a href="#3-1-封装性的概念" class="headerlink" title="3.1 封装性的概念"></a>3.1 封装性的概念</h3><blockquote>
+<p>封装性是面向对象思想的三大特征之一，封装就是隐藏实现细节，仅对外提供访问接口。实现细节部份包装、隐藏起来的方法。</p>
+</blockquote>
+<p>封装有：<strong>属性的封装</strong>、<strong>方法的封装</strong>、<strong>类的封装</strong>、<strong>组件的封装</strong>、<strong>模块化封装</strong>、<strong>系统级封装</strong><br>封装的好处：<strong>模块化</strong>、<strong>信息隐藏</strong>、<strong>代码重用</strong>、<strong>插件化易于调试</strong>、<strong>具有安全性</strong><br>封装的缺点：**会影响执行效率</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>金猪博客2.0开启</title>
     <url>/2020/08/13/jzbk2-open/</url>
     <content><![CDATA[<p>在2019年8月13日，大金猪成立了第一个博客，<strong>金猪博客</strong>，史称金猪博客1.0。</p>
@@ -145,38 +177,6 @@
       </categories>
       <tags>
         <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java面向对象编程学习笔记（一）</title>
-    <url>/2020/08/19/Java-note1/</url>
-    <content><![CDATA[<p>封装<strong>、</strong>继承<strong>、</strong>多态。</p>
-<h2 id="1-基本概念"><a href="#1-基本概念" class="headerlink" title="1.基本概念"></a>1.基本概念</h2><blockquote>
-<p>程序中包含各种独立而又互相调用的对象的思想。—– Wikipedia</p>
-</blockquote>
-<ol>
-<li>先整体，再局部</li>
-<li>先抽象，再具体</li>
-<li>能做什么，再怎么做<a id="more"></a>
-
-</li>
-</ol>
-<h2 id="2-Java类和对象"><a href="#2-Java类和对象" class="headerlink" title="2.Java类和对象"></a>2.Java类和对象</h2><p>类的定义：</p>
-<p><code>class 类名称&#123;</code><br><code>属性名称;</code><br><code>返回值类型 方法名称()&#123;&#125;</code><br><code>&#125;</code></p>
-<p>操作要用到对象，对象定义如下：</p>
-<p><code>类名称 对象名称 = new 类名称() ;</code></p>
-<p>访问类中方法或属性：</p>
-<p><code>访问类中的属性：对象.属性 ;</code><br><code>调用类中的方法：对象.方法();</code></p>
-<h2 id="3-封装性"><a href="#3-封装性" class="headerlink" title="3.封装性"></a>3.封装性</h2><h3 id="3-1-封装性的概念"><a href="#3-1-封装性的概念" class="headerlink" title="3.1 封装性的概念"></a>3.1 封装性的概念</h3><blockquote>
-<p>封装性是面向对象思想的三大特征之一，封装就是隐藏实现细节，仅对外提供访问接口。实现细节部份包装、隐藏起来的方法。</p>
-</blockquote>
-<p>封装有：<strong>属性的封装</strong>、<strong>方法的封装</strong>、<strong>类的封装</strong>、<strong>组件的封装</strong>、<strong>模块化封装</strong>、<strong>系统级封装</strong><br>封装的好处：<strong>模块化</strong>、<strong>信息隐藏</strong>、<strong>代码重用</strong>、<strong>插件化易于调试</strong>、<strong>具有安全性</strong><br>封装的缺点：**会影响执行效率</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
       </tags>
   </entry>
 </search>
